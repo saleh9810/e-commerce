@@ -1,0 +1,135 @@
+
+.shop {
+    text-align: center;
+
+    &__title {
+        margin-top: 40px;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        @media only screen and (max-width: $bp-medium) {
+            font-size: 15px;
+         } 
+
+}
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    margin-top: 40px;
+
+    &__product {
+       text-align: center;
+       margin:  10px;
+       position: relative;
+       box-shadow: 2px 2px 2px 2px grey ;
+       border-radius: 15px;
+       overflow: hidden;
+       background-color: #fff;
+       
+
+
+       @media only screen and (max-width: $bp-medium) {
+           margin: 10px 10px;
+     }
+
+     @media only screen and (max-width: $bp-smallest) {
+        margin: 10px 40px;
+  }
+
+  @media only screen and (max-width: $bp-smallest-ultra) {
+    margin: 10px 20px;
+}
+   
+       
+
+      
+
+      
+    
+
+
+        &__img {
+            max-width: 250px;
+            height: auto;
+            margin-top: 10px;
+            @media only screen and (max-width: $bp-medium) {
+                max-width: 100%;
+
+
+
+             } 
+
+            
+        
+
+            
+           
+
+        }
+
+        &__data {
+            text-align:center;
+            
+
+          &__title {
+              width: 255px;
+              margin-left: auto;
+              margin-right: auto;
+              padding-top: 10px;
+              font-weight: 500;
+
+              @media only screen and (max-width: $bp-medium) {
+                  font-size: 15px;
+
+             } 
+
+             @media only screen and (max-width: $bp-small) {
+                 width: 200px;
+             } 
+
+             @media only screen and (max-width: $bp-smallest-ultra) {
+
+                width: 170px;
+            } 
+           
+          }  
+
+          &__price {
+              margin-top: 10px;
+              font-weight: bold;
+              color: $color-priamry;
+              font-size: 18px;
+              padding-bottom: 10px;
+
+          }
+        }
+
+  
+   
+
+        &__btn {
+            border: none;
+            color: #fff;      
+            cursor: pointer;
+            width: 100%;
+            font-size: 25px;
+            background-color: $color-priamry;
+        
+           
+           
+         &:hover {
+             opacity: 1;
+              overflow: visible;
+         } 
+
+
+        
+          
+        }
+    }
+    
+}

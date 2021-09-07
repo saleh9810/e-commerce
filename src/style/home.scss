@@ -1,0 +1,99 @@
+
+.home {
+    background-image: linear-gradient(to right bottom, rgba($color-priamry, 0.8),
+                                           rgba($color-secondary, 0.8)),
+                                             url(../images/img1.jpg);
+    height: 85vh;
+    position: relative;
+    background-size: cover;
+
+    &__contanier {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 270px;
+        margin-top: 10px;
+        }
+   &__box {
+     
+       border: 1px solid rgb(255, 255, 255);
+       padding: 5px;
+
+     &__content {
+         text-align: center;
+         padding: 40px;
+         border: 1px solid rgb(255, 255, 255);
+
+     &__mid {
+            margin-bottom: 15px;
+            color: #fff;
+            font-weight: bold;
+     }
+     
+     &__sale {
+         font-size: 45px;
+         margin-bottom: 10px;
+         font-weight: 620;
+
+         @media only screen and (max-width: $bp-smallest) {
+            font-size: 25px;
+         }  
+
+
+     }
+
+     &__up {
+         color: #fff;
+         font-weight: 700;
+         position: relative;
+
+         @media only screen and (max-width: $bp-small) {
+            font-size: 13px;
+         } 
+
+       &::before {
+           content: "____";
+           position: absolute;
+           left: 19%;
+           bottom: 6px;
+       
+        
+       }  
+
+       &::after {
+        content: "____";
+        position: absolute;
+        right: 19%;
+        bottom: 6px;
+     
+    } 
+     }
+
+     &__off {
+         font-size: 30px;
+         margin-top: 10px;
+
+         @media only screen and (max-width: $bp-smallest) {
+           font-size: 20px;
+        } 
+     }
+         
+     }  
+   } 
+
+   &__btn {
+       text-align: center;
+       margin-top: 30px;
+
+      button {
+          font-size: 15px;
+          background-color: $color-priamry;
+          padding: 8px 20px;
+
+
+          
+      } 
+       
+   }
+  }

@@ -1,0 +1,82 @@
+.navbar {
+   
+    background-color: rgb(226, 226, 226);
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+   
+
+
+    &__content {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0px;
+
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    
+       
+    
+       &__title h1 {
+            font-size: 40px;
+            font-family: 'Times New Roman', Times, serif;
+            margin-left: 20px;
+    
+            @media only screen and (max-width: $bp-largest) {
+               font-size: 30px;
+            }  
+       }
+       
+       &__basket ul {
+        list-style: none;
+        display: flex;
+        margin-right: 20px;
+    
+        a {
+    
+            li {
+                margin-right: 10px;
+               span {
+                   font-size: 11px;
+                   background-color: red;
+                   border-radius: 50%;
+                   font-weight: 800;
+                   width: 15px;
+                   padding: 3px 7px;
+                   color: #fff;
+    
+               
+               } 
+    
+               .svg-inline--fa {
+                   font-size: 25px;
+    
+               }
+            }
+        }    
+        
+    }
+
+
+
+    
+    
+
+   
+}
+
+    
+}
+
+
+
+
+
+
+

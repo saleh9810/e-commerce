@@ -1,0 +1,115 @@
+
+.product {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: center;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    @media only screen and (max-width: $bp-small) {
+        flex-direction: column;
+
+   }  
+
+   @media only screen and (max-width: $bp-smallest-ultra) {
+     top: 55%;
+
+}  
+
+@media only screen and (max-height: $bp-small-height) {
+  top: 65%;
+
+}  
+
+    
+  &__first__collection {
+    margin: 0px 30px;
+
+
+    @media only screen and (max-width: $bp-small) {
+
+      margin: 30px 0px;
+      
+ } 
+ 
+ @media only screen and (max-height: $bp-small-height) {
+  margin: 5px 0px;
+}  
+
+      &__img {
+          max-width: 200px;
+          max-height: 300px;
+
+          @media only screen and (max-width: $bp-small) {
+
+            max-width: 100px;
+            max-height: 200px;
+
+        }
+          
+      }
+  }
+
+  &__seconde__collection {
+      margin-right: 30px;
+      text-align: center;
+
+      @media only screen and (max-width: $bp-small) {
+          margin-right: 0px;     
+   } 
+      &__title {
+            font-weight: 600;
+            margin-top: 30px;
+
+            @media only screen and (max-width: $bp-small) {
+
+             font-size: 15px;
+             margin: 10px 20px;
+         } 
+      }
+
+      &__descripition {
+            margin-top: 20px;
+
+            @media only screen and (max-width: $bp-small) {
+              margin: 10px 20px;
+              font-size: 10px;
+          }
+      }
+
+      &__price {
+            margin-top: 20px;
+            font-size: 25px;
+            font-weight: 400;
+
+            @media only screen and (max-width: $bp-small) {
+
+              font-size: 20px;
+          }
+      }
+
+      &__button {
+          margin-top: 20px;
+          margin-bottom: 30px;
+          background-color: $color-priamry;
+          padding: 8px 20px;
+          @media only screen and (max-width: $bp-small) {
+
+            font-size: 10px;
+        }
+
+        
+ @media only screen and (max-height: $bp-small-height) {
+   margin-bottom: 10px;
+}  
+
+          
+      }
+  }
+}

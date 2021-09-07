@@ -1,0 +1,36 @@
+
+footer {
+
+    text-align: center;
+    font-weight: 500;
+    background-image: linear-gradient(to right bottom, rgba($color-priamry, 0.8),
+    rgba($color-secondary, 0.8));
+    color: rgb(0, 0, 0);
+    
+
+ 
+ 
+
+}
+
+
+.social {
+
+
+    ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+
+
+      li {
+          margin: 10px;
+          cursor: pointer;
+      }  
+    }
+
+    p{
+        padding-bottom: 20px;
+    }
+
+}
