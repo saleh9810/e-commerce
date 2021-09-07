@@ -11,7 +11,7 @@ const Footer = () => {
                           <li><i className="fab fa-pinterest"></i></li>
                       </ul>
 
-                      <p>All Copyright  Save For Saleh Farag(2021)</p>
+                      <p>All Copyright Save For Saleh Farag(2021)</p>
 
                 </div>
 
