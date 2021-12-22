@@ -96,6 +96,7 @@
 
 .shop {
   text-align: center;
+  margin: 0 5rem;
 }
 
 .shop__title {
@@ -107,6 +108,7 @@
 @media only screen and (max-width: 900px) {
   .shop__title {
     font-size: 15px;
+    margin: 0 0rem;
   }
 }
 
@@ -156,14 +158,14 @@
 }
 
 .products__product__img {
-  max-width: 250px;
+  width: 50%;
   height: auto;
   margin-top: 10px;
 }
 
 @media only screen and (max-width: 900px) {
   .products__product__img {
-    max-width: 100%;
+    width: 60%;
   }
 }
 
@@ -200,8 +202,8 @@
 .products__product__data__price {
   margin-top: 10px;
   font-weight: bold;
-  color: #0f93a5;
-  font-size: 18px;
+  color: #252525;
+  font-size: 20px;
   padding-bottom: 10px;
 }
 
@@ -211,12 +213,13 @@
   cursor: pointer;
   width: 100%;
   font-size: 25px;
+  padding: 5px;
   background-color: #0f93a5;
 }
 
 .products__product__btn:hover {
-  opacity: 1;
   overflow: visible;
+  color: #313131;
 }
 
 .product {
@@ -278,7 +281,7 @@
 }
 
 .product__first__collection__img {
-  width: 30%;
+  max-width: 200px;
   max-height: 300px;
 }
 

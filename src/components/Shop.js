@@ -18,7 +18,7 @@ if(!products) return <div>loading</div>;
 const breakpoints = {
     default: 3,
     1100:2,
-    500: 1
+    600: 1
 }
     
     
