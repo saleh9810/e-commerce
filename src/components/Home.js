@@ -19,7 +19,7 @@ function Home() {
                 </div>
             </div>
             <div className="home__btn">
-                <button className="btn">SHOP NOW</button>
+                <a href='#shop' className="btn">SHOP NOW</a>
             </div>   
             </div> 
         </div>

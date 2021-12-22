@@ -16,14 +16,14 @@ function Shop({products, fetchProducts, addToCart}) {
 if(!products) return <div>loading</div>;
 
 const breakpoints = {
-    default: 4,
+    default: 3,
     1100:2,
     500: 1
 }
     
     
     return (
-        <div className="shop">
+        <div id='shop' className="shop">
                             <h3 className="shop__title">OUR SHOP</h3>
                         <div className="products">
                     <Masonry 

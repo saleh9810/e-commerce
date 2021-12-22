@@ -1,6 +1,7 @@
 
 .shop {
     text-align: center;
+    margin: 0 5rem;
 
     &__title {
         margin-top: 40px;
@@ -8,6 +9,8 @@
         font-family: 'Times New Roman', Times, serif;
         @media only screen and (max-width: $bp-medium) {
             font-size: 15px;
+            margin: 0 0rem;
+
          } 
 
 }
@@ -53,12 +56,12 @@
 
 
         &__img {
-            max-width: 250px;
+            width: 50%;
             height: auto;
             margin-top: 10px;
             @media only screen and (max-width: $bp-medium) {
-                max-width: 100%;
 
+                width: 40%;
 
 
              } 
@@ -101,8 +104,8 @@
           &__price {
               margin-top: 10px;
               font-weight: bold;
-              color: $color-priamry;
-              font-size: 18px;
+              color: $color-secondary;
+              font-size: 20px;
               padding-bottom: 10px;
 
           }
@@ -117,13 +120,16 @@
             cursor: pointer;
             width: 100%;
             font-size: 25px;
+            padding:5px;
             background-color: $color-priamry;
         
            
            
          &:hover {
-             opacity: 1;
               overflow: visible;
+              color: rgb(49, 49, 49);
+              
+
          } 
 
 
